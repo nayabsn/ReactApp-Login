@@ -1,0 +1,72 @@
+/* Styling for Text & Button */
+
+.link {
+    color: #ff8676;
+    font-weight: 900;
+    font-size: 13px;
+    text-transform: capitalize;
+    display: flex;
+    }
+
+.linkBtn {
+    margin-left: 10px;
+    margin-top:2px;
+    padding: 3px; 
+    background: #ff8676;
+    color: white;
+    border-radius: 100px;
+    font-size: 6px;
+  }
+
+.section-left {
+    flex:1;
+}
+
+.section-right {
+    margin-top: -8px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+/* Styling for Slider */
+
+.react-switch-checkbox {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  .react-switch-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 44px;
+    height: 24px;
+    background: transparent;
+    border: 1px solid #2b2059;
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  .react-switch-label .react-switch-button {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 100px;
+    transition: 0.2s;
+    background: #2b2059;
+    color: #fb5162;
+    z-index: 1;
+    padding:4px;
+  }
+  
+  .react-switch-checkbox:checked + .react-switch-label .react-switch-button  {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+    background: #2b2059;
+  }

@@ -1,0 +1,67 @@
+/* Styling for Text & Button */
+
+.or {
+  font-size: 14px;
+  color: #bbc0d6;
+  font-weight: 700;
+}
+
+.dash {
+  margin: 0px 0px -2px 0px;
+}
+
+.leftdash {
+  margin: 0px -8px -2px 0px;
+}
+
+.rightdash {
+  margin: 0px 0px -2px -8px;
+}
+
+.googleBtn {
+  background: #fee3e1;
+  box-shadow: none;
+  height: 52px;
+  text-transform: none;
+  font-size: 20px;
+  width: 80%;
+  margin-right: 12px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+
+.googleLogo {
+  margin-bottom:-7px;
+  font-size:24px;
+}
+
+.btnText {
+  padding-left: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #645c96;
+}
+
+.facebookBtn {
+  background: #fee3e1;
+  box-shadow: none;
+  height: 52px;
+  text-transform: none;
+  font-size: 24px;
+  padding-top:6px;
+  margin-right: 12px;
+  border-radius: 10px;
+  color: #3b5998;
+  min-width: 52px;
+}
+
+.appleBtn {
+  background: #fee3e1;
+  box-shadow: none;
+  height: 52px;
+  text-transform: none;
+  font-size: 20px;
+  padding-top:4px;
+  border-radius: 10px;
+  min-width: 52px;
+}

@@ -17,6 +17,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
+    "react-native-paper": "^4.11.2",
+    "react-native-password-eye": "^1.0.3",
+    "react-native-vector-icons": "^9.1.0",
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
   },
